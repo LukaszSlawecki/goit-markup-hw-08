@@ -1,0 +1,36 @@
+.work {
+  display: flex;
+  flex-wrap: wrap;
+
+  padding: 0;
+}
+
+.work__photo {
+  position: relative;
+  flex-basis: calc((100% - 30px) / 3);
+  width: 33.33%;
+}
+.work__photo:not(:last-child) {
+  padding-right: 15px;
+}
+
+.work__label {
+  text-transform: uppercase;
+  text-align: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  padding: 27px 0px;
+  position: absolute;
+  color: #ffffff;
+  bottom: 0;
+  left: 0;
+  width: 370px;
+  height: 10%;
+  background: rgba(47, 48, 58, 0.8);
+}
+
+.work__image {
+  display: block;
+}

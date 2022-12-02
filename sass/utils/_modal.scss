@@ -1,0 +1,207 @@
+.modal-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal__headline {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.4375em;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-top: 40px;
+  margin-bottom: 12px;
+}
+
+.modal__label {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding-left: 20px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 0.875em;
+  letter-spacing: 0.01em;
+  color: #757575;
+}
+.modal__input {
+  position: relative;
+  outline: none;
+  width: 448px;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  padding-left: 40px;
+  margin-bottom: 10px;
+}
+.modal__icon {
+  width: 13px;
+  height: 13px;
+  position: absolute;
+  top: 45%;
+  left: 6%;
+  align-items: center;
+  justify-content: center;
+  fill: #212121;
+}
+.modal__comment {
+  resize: none;
+  outline: none;
+  width: 455px;
+  height: 138px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  padding: 12px 16px;
+}
+
+.modal__comment:focus {
+  border-color: #2196f3;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal__checkbox {
+  position: relative;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-left: 55px;
+  margin-right: 54px;
+  margin-bottom: 0;
+  color: #757575;
+}
+
+.form-label:focus-within > .modal-form-input {
+  border-color: #2196f3;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-label:focus-within > .icon-form {
+  fill: #2196f3;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal__check {
+  position: relative;
+  opacity: 0;
+  &:checked + .modal__iconcheck {
+    fill: #ffffff;
+    background-color: #2196f3;
+    border-color: #2196f3;
+    border-radius: 2px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+.modal__iconcheck {
+  position: absolute;
+  fill: #ffffff;
+  top: 10%;
+  right: 97%;
+  border: 1px solid #212121;
+}
+
+.modal__privacy {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5em;
+  letter-spacing: 0.03em;
+}
+
+.terms__link {
+  color: #2196f3;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5em;
+  letter-spacing: 0.03em;
+}
+
+.form-button {
+  width: 200px;
+  height: 50px;
+  color: #ffffff;
+  background-color: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 164px;
+  margin-right: 164px;
+  margin-bottom: 40px;
+}
+.button-modal {
+  position: relative;
+  left: 165px;
+  top: 30px;
+  background-color: var(--blue);
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+  color: var(--white);
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.88;
+  width: 200px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.button {
+  background-color: var(--grey);
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+  font-size: 16px;
+  line-height: 1.62;
+  cursor: pointer;
+  font-weight: 500;
+  border-radius: 4px;
+  border: 0px;
+}
+.button-active {
+  position: relative;
+  background-color: var(--blue);
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+  color: var(--white);
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.88;
+  width: 200px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.backdrop {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0 0 0 / 0.5);
+  transition: 0.25s;
+  z-index: 1;
+}
+
+.modal {
+  position: absolute;
+  width: 528px;
+  height: 620px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 4px;
+  background-color: #ffffff;
+  z-index: 2;
+}
+.modal-btn {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
