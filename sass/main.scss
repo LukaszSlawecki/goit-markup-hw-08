@@ -1,11 +1,17 @@
-@import "./utils/variables";
+@import "./utils/vars";
+@import "./utils/globals";
+
 @import "./components/header";
-@import "./utils/main-button";
-@import "./components/items";
-@import "./components/what-we-do";
+@import "./components/logo";
+@import "./components/hero";
+@import "./components/button";
+@import "./components/menu-mobile";
+@import "./components/modal";
+@import "./components/trumps";
+@import "./components/works";
 @import "./components/team";
-@import "./components/clients";
-@import "./components/portfolio";
+@import "./components/socials";
+@import "./components/customers";
+@import "./components/filters";
+@import "./components/projects";
 @import "./components/footer";
-@import "./utils/modal";
-@import "./utils/hidden";
