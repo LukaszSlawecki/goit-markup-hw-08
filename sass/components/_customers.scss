@@ -1,4 +1,4 @@
-// Nasi klienci
+
 .customers__list {
   list-style-type: none;
   display: flex;
@@ -28,7 +28,7 @@
   flex-basis: calc((100% - 60px) / 2);
 }
 
-// TABLET RESPONSIVE
+
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .customers__box {
@@ -36,7 +36,7 @@
   }
 }
 
-// DESKTOP RESPONSIVE
+
 
 @media screen and (min-width: 1200px) {
   .customers__list {

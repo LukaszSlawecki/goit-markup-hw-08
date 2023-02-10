@@ -1,4 +1,4 @@
-// Okno modalne
+
 .backdrop {
   background: rgba(0, 0, 0, 0.2);
   position: fixed;
@@ -175,7 +175,7 @@
   }
 }
 
-// DESKTOP RESPONSIVE
+
 
 @media screen and (min-width: 1200px) {
   .modal {
@@ -204,7 +204,7 @@
   }
 }
 
-// TABLET & DESKTOP RESPONSIVE
+
 
 @media screen and (min-width: 473px) {
   .modal__form-checkbox-svg {

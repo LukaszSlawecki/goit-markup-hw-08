@@ -1,4 +1,4 @@
-// Footer
+
 .footer {
   background-color: $backgroundColor;
 
@@ -87,7 +87,7 @@
   }
 }
 
-// TABLET RESPONSIVE
+
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer__box {
@@ -108,7 +108,7 @@
     max-width: 250px;
   }
 }
-// DESKTOP RESPONSIVE
+
 
 @media screen and (min-width: 1200px) {
   .footer__box {

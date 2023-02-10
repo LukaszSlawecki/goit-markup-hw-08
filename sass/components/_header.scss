@@ -1,4 +1,4 @@
-// Nagłówek makiety
+
 .header {
   background-color: $whiteColor;
   border-bottom: 1px solid #ececec;
@@ -43,7 +43,7 @@
     color: $highlightColor;
   }
 
-  // Menu makiety
+
 
   &__menu {
     list-style: none;
@@ -84,7 +84,7 @@
     top: 43.5px;
   }
 }
-// TABLET RESPONSIVE
+
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .header {
@@ -106,7 +106,7 @@
   }
 }
 
-// DESKTOP RESPONSIVE
+
 
 @media screen and (min-width: 1200px) {
   .header {
